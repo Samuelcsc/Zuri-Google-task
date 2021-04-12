@@ -1,0 +1,177 @@
+body,
+p,
+.btns_container {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 16%;
+  margin-left: auto;
+  margin-top: 9px;
+}
+
+nav a {
+  color: rgb(43, 42, 42);
+  text-decoration: none;
+  padding: 1em 0.5em;
+}
+
+nav img {
+  height: 17px;
+  padding: 1em 0.1em;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto 16em auto;
+  text-align: center;
+}
+
+input {
+  width: 75%;
+  height: 3.3vh;
+  padding: 1em 3.8em;
+  border-radius: 30px;
+  border: 1px solid #dddddd;
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 1px 1px 7px #cccccc;
+}
+
+.btns_container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.btns_container button {
+  background-color: rgb(248, 248, 248);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: rgb(59, 59, 59);
+}
+
+.links {
+  text-decoration: none;
+  color: #1a0dab;
+  padding: 0 0.3rem;
+}
+
+footer {
+  background-color: rgb(240, 236, 236);
+  color: rgb(110, 109, 109);
+  font-size: 1.1rem;
+}
+
+.footer-top {
+  padding: 0.8em 2rem;
+}
+
+.footer-bottom {
+  padding: 0.8em 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(201, 201, 201);
+}
+
+.left a {
+  margin-right: 1em;
+}
+
+.right a {
+  margin-right: 1em;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a img {
+  width: 6%;
+}
+
+main img {
+  margin: 0 auto 1.5rem auto;
+}
+
+main p {
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+.user_pic {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+  padding: 9px;
+}
+
+button:hover {
+  box-shadow: 0 0 3px #aaaaaa;
+}
+
+.mic {
+  width: 3.5%;
+}
+
+.search_img {
+  width: 3%;
+}
+
+svg.search_img {
+  position: relative;
+  top: 7px;
+  right: 660px;
+}
+
+svg.mic {
+  position: relative;
+  top: 8px;
+  right: 70px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  display: none;
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  padding: 5px 10px;
+  color: #fff;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 20.2em;
+  right: 33.4em;
+  font-size: 0.8rem;
+}
+
+span:hover {
+  display: inline-block;
+}
+
+span::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgb(44, 44, 44);
+}
